@@ -1,0 +1,216 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif; 
+}
+
+header {
+	height: 56px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+li {
+	list-style-type: none;
+	margin: 20px 14px;
+}
+
+.fas {
+	color: gray;
+}
+
+.fa-bars {
+	margin-left: 14px;
+	margin-right: 28px;
+}
+
+.youtube-logo {
+	width: 90px;
+	margin: -19px -25px;
+}
+
+input {
+	font-size: 16px;
+	padding-left: 10px;
+	width: 575px;
+	height: 30px;
+	float: left;
+}
+
+.search {
+	margin: 10px auto;
+}
+
+button {
+	width: 65px;
+	height: 36px;
+	font-size: 14px;
+}
+
+.sign-in {
+	border: 1px solid blue;
+	border-radius: 2px;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-size: 25px;
+	position: relative;
+	top: -7px;
+	color: blue;
+
+}
+
+.fa-user-circle {
+	position: relative;
+	top: 2px;
+	color: blue;
+}
+
+span {
+	padding-left: 10px;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.container {
+	margin: 25px 80px;
+}
+
+.video-info {
+	width: 840px;
+	height: 525px;
+	float: left;
+}
+
+iframe {
+	width: 100%;
+	height: 525px;
+}
+
+h1 {
+	font-size: 17px;
+}
+
+aside {
+	width: 400px;
+	height: 424px;
+	float: right;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.sidebar-top {
+	display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+	margin: 0;
+	font-size: 17px;
+	font-weight: normal;
+	display: inline;
+}
+
+.sidebar-top p {
+	display: inline-block;
+	margin: 0;
+	font-size: 13px;
+}
+
+.fa-toggle-on {
+	font-size: 25px;
+}
+
+.up-next-video {
+	display: flex;
+	flex-direction: row;
+}
+
+.up-next-video-cover {
+	width: 168px;
+	height: 94px;
+	float: left;
+}
+
+.up-next-video-info {
+	display: flex;
+	flex-direction: column;
+	width: 230px;
+	height: 110px;
+	margin-top: 8px;
+
+}
+
+.text {
+	font-size: 13px;
+	margin: 2px 5px;
+}
+
+p {
+	color: gray;
+}
+
+hr {
+	margin-top: -7px;
+	height: 1px;
+	background-color: lightgray;
+	border: none;
+}
+
+h1+.text {
+	margin-left: 0;
+	display: inline-block;
+}
+
+.actions {
+	display: flex;
+	flex-direction: row;
+	float: right;	
+}
+
+.action-pair {
+	margin: 7px;
+}
+
+.action {
+	font-weight: bold;
+	display: inline-block;
+}
+
+.video-description {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	position: relative;
+	top: 10px;
+	padding: 20px 0;
+}
+
+.video-description img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.video-description div {
+	width: 700px;
+}
+
+.video-description button {
+	width: 106px;
+	height: 36px;
+	border-radius: 2px;
+	background: red;
+	color: white;
+	border: 1px solid red;
+}
+
+.video-description .video-description-full {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: black;
+}
